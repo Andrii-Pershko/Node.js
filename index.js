@@ -21,16 +21,3 @@ async function invokeAction({ action, name, id, email, phone }) {
 }
 
 invokeAction(argv);
-
-//** TEST **//
-// invokeContactsFunctions({ action: "list" });
-// invokeContactsFunctions({action:"get", id:"9XHQLrPYmfkWaUjnO9U22"});
-// invokeContactsFunctions({action:"remove", id:"9XHQLrPYmfkWaUjnO9U22"});
-
-// invokeContactsFunctions({
-//   action: "ad",
-//   name: "Test Name",
-//   email: "example@gmail.com",
-//   phone: "0-000-000-000",
-// });
-//** TEST **//
